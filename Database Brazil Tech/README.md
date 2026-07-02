@@ -19,8 +19,9 @@ Assim, o banco de dados fornece uma base sólida para que gestores de um E-comme
 
 - **schema.sql** → Modelagem de dados  
 - **inserts.sql** → Inserção de dados  
-- **analytics.sql** → Consultas analíticas  
-
+- **analytics.sql** → Consultas analíticas
+- **diagrama.jpg** → Diagrama ER da modelagem
+  
 # Conceito Aplicado
 
 - Modelagem Relacional  
