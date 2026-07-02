@@ -22,7 +22,7 @@ FROM customer c
 INNER JOIN orders o USING (customer_id)
 INNER JOIN order_items oi USING (order_id)
 GROUP BY Customer
-ORDER BY SUM(oi.quantity * oi.unit_price)/COUNT(DISTINCT o.order_id) DES;
+ORDER BY SUM(oi.quantity * oi.unit_price)/COUNT(DISTINCT o.order_id) DESC;
 
 -- TOP CLIENTES 
 
